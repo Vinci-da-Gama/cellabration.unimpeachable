@@ -1,0 +1,288 @@
+
+		            	<!-- style="opacity: 1; display: block;" -->
+		                <div class="slider-items slider-width-col6 owl-carousel owl-theme">
+		                    <!-- Item -->
+		                    <div class="owl-wrapper-outer">
+		                    	<!-- style="width: 3120px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(0px, 0px, 0px);" -->
+		                        <div class="owl-wrapper">
+		                        	<!-- style="width: 195px;" -->
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo3.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo2.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo1.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo4.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo5.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo6.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo1.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                            <div class="owl-item">
+		                                <div class="item">
+		                                    <a href="#"><img src="./asserts/imgs/b-logo4.png" alt="Image"></a>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="owl-controls clickable">
+		                        <div class="owl-pagination">
+		                            <div class="owl-page active"><span class=""></span></div>
+		                            <div class="owl-page"><span class=""></span></div>
+		                        </div>
+		                    </div>
+		                </div>
+
+
+
+						<div class="owl-item" style="width: 195px;">
+		                            <div class="item">
+		                                <div class="item-inner">
+		                                    <div class="item-img">
+		                                        <div class="item-img-info">
+		                                            <a class="product-image" title="Retis lapen casen" href="#">
+		                                            	<img alt="Retis lapen casen" src="./asserts/imgs/product-grw.jpg"> </a>
+		                                            <div class="sale-label">Sale</div>
+		                                            <a class="quickview-btn"><span>Quick View</span></a> </div>
+		                                    </div>
+		                                    <div class="item-info">
+		                                        <div class="info-inner">
+		                                            <div class="item-title"> <a title="Retis lapen casen" href="#"> Sample Product </a> </div>
+		                                            <div class="item-content">
+		                                                <div class="rating">
+		                                                    <div class="ratings">
+		                                                        <div class="rating-box">
+		                                                            <div class="rating"></div>
+		                                                        </div>
+		                                                        <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="item-price">
+		                                                    <div class="price-box"> <span class="regular-price"> <span class="price">$125.00</span> </span>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="actions">
+		                                                    <a href="wishlist.html" class="link-wishlist" title="Add to Wishlist"></a>
+		                                                    <div class="add_cart">
+		                                                        <button class="button btn-cart" type="button"><span>Add to Cart</span></button>
+		                                                    </div>
+		                                                    <a href="compare.html" class="link-compare" title="Add to Compare"></a>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="owl-item" style="width: 195px;">
+		                            <div class="item">
+		                                <div class="item-inner">
+		                                    <div class="item-img">
+		                                        <div class="item-img-info">
+		                                            <a class="product-image" title="Retis lapen casen" href="#">
+		                                            	<img alt="Retis lapen casen" src="./asserts/imgs/product-gw.jpg"> </a> <a class="quickview-btn"><span>Quick View</span></a> </div>
+		                                    </div>
+		                                    <div class="item-info">
+		                                        <div class="info-inner">
+		                                            <div class="item-title"> <a title="Retis lapen casen" href="#"> Sample Product </a> </div>
+		                                            <div class="item-content">
+		                                                <div class="rating">
+		                                                    <div class="ratings">
+		                                                        <div class="rating-box">
+		                                                            <div class="rating"></div>
+		                                                        </div>
+		                                                        <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="item-price">
+		                                                    <div class="price-box"> <span class="regular-price"> <span class="price">$125.00</span> </span>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="actions">
+		                                                    <a href="wishlist.html" class="link-wishlist" title="Add to Wishlist"></a>
+		                                                    <div class="add_cart">
+		                                                        <button class="button btn-cart" type="button"><span>Add to Cart</span></button>
+		                                                    </div>
+		                                                    <a href="compare.html" class="link-compare" title="Add to Compare"></a>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="owl-item" style="width: 195px;">
+		                            <div class="item">
+		                                <div class="item-inner">
+		                                    <div class="item-img">
+		                                        <div class="item-img-info">
+		                                            <a class="product-image" title="Retis lapen casen" href="#">
+		                                            	<img alt="Retis lapen casen" src="./asserts/imgs/product-np.jpg"> </a>
+		                                            <div class="sale-label">Sale</div>
+		                                            <a class="quickview-btn"><span>Quick View</span></a> </div>
+		                                    </div>
+		                                    <div class="item-info">
+		                                        <div class="info-inner">
+		                                            <div class="item-title"> <a title="Retis lapen casen" href="#"> Sample Product </a> </div>
+		                                            <div class="item-content">
+		                                                <div class="rating">
+		                                                    <div class="ratings">
+		                                                        <div class="rating-box">
+		                                                            <div class="rating"></div>
+		                                                        </div>
+		                                                        <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="item-price">
+		                                                    <div class="price-box"> <span class="regular-price"> <span class="price">$125.00</span> </span>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="actions">
+		                                                    <a href="wishlist.html" class="link-wishlist" title="Add to Wishlist"></a>
+		                                                    <div class="add_cart">
+		                                                        <button class="button btn-cart" type="button"><span>Add to Cart</span></button>
+		                                                    </div>
+		                                                    <a href="compare.html" class="link-compare" title="Add to Compare"></a>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="owl-item" style="width: 195px;">
+		                            <div class="item">
+		                                <div class="item-inner">
+		                                    <div class="item-img">
+		                                        <div class="item-img-info">
+		                                            <a class="product-image" title="Retis lapen casen" href="#">
+		                                            	<img alt="Retis lapen casen" src="./asserts/imgs/product-grw.jpg"> </a> <a class="quickview-btn"><span>Quick View</span></a> </div>
+		                                    </div>
+		                                    <div class="item-info">
+		                                        <div class="info-inner">
+		                                            <div class="item-title"> <a title="Retis lapen casen" href="#"> Sample Product </a> </div>
+		                                            <div class="item-content">
+		                                                <div class="rating">
+		                                                    <div class="ratings">
+		                                                        <div class="rating-box">
+		                                                            <div class="rating"></div>
+		                                                        </div>
+		                                                        <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="item-price">
+		                                                    <div class="price-box"> <span class="regular-price"> <span class="price">$125.00</span> </span>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="actions">
+		                                                    <a href="wishlist.html" class="link-wishlist" title="Add to Wishlist"></a>
+		                                                    <div class="add_cart">
+		                                                        <button class="button btn-cart" type="button"><span>Add to Cart</span></button>
+		                                                    </div>
+		                                                    <a href="compare.html" class="link-compare" title="Add to Compare"></a>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="owl-item" style="width: 195px;">
+		                            <div class="item">
+		                                <div class="item-inner">
+		                                    <div class="item-img">
+		                                        <div class="item-img-info">
+		                                            <a class="product-image" title="Retis lapen casen" href="#">
+		                                            	<img alt="Retis lapen casen" src="./asserts/imgs/product-gw.jpg"> </a>
+		                                            <div class="sale-label">Sale</div>
+		                                            <a class="quickview-btn"><span>Quick View</span></a> </div>
+		                                    </div>
+		                                    <div class="item-info">
+		                                        <div class="info-inner">
+		                                            <div class="item-title"> <a title="Retis lapen casen" href="#"> Sample Product </a> </div>
+		                                            <div class="item-content">
+		                                                <div class="rating">
+		                                                    <div class="ratings">
+		                                                        <div class="rating-box">
+		                                                            <div class="rating"></div>
+		                                                        </div>
+		                                                        <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="item-price">
+		                                                    <div class="price-box"> <span class="regular-price"> <span class="price">$125.00</span> </span>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="actions">
+		                                                    <a href="wishlist.html" class="link-wishlist" title="Add to Wishlist"></a>
+		                                                    <div class="add_cart">
+		                                                        <button class="button btn-cart" type="button"><span>Add to Cart</span></button>
+		                                                    </div>
+		                                                    <a href="compare.html" class="link-compare" title="Add to Compare"></a>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="owl-item" style="width: 195px;">
+		                            <div class="item">
+		                                <div class="item-inner">
+		                                    <div class="item-img">
+		                                        <div class="item-img-info">
+		                                            <a class="product-image" title="Retis lapen casen" href="#">
+		                                            	<img alt="Retis lapen casen" src="./asserts/imgs/product-np.jpg"> </a> <a class="quickview-btn"><span>Quick View</span></a> </div>
+		                                    </div>
+		                                    <div class="item-info">
+		                                        <div class="info-inner">
+		                                            <div class="item-title"> <a title="Retis lapen casen" href="#"> Sample Product </a> </div>
+		                                            <div class="item-content">
+		                                                <div class="rating">
+		                                                    <div class="ratings">
+		                                                        <div class="rating-box">
+		                                                            <div class="rating"></div>
+		                                                        </div>
+		                                                        <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="item-price">
+		                                                    <div class="price-box"> <span class="regular-price"> <span class="price">$125.00</span> </span>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="actions">
+		                                                    <a href="wishlist.html" class="link-wishlist" title="Add to Wishlist"></a>
+		                                                    <div class="add_cart">
+		                                                        <button class="button btn-cart" type="button"><span>Add to Cart</span></button>
+		                                                    </div>
+		                                                    <a href="compare.html" class="link-compare" title="Add to Compare"></a>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>

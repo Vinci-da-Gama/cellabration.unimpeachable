@@ -1,0 +1,84 @@
+.owlCarouselATag(@content, @fzAnchor, @anchorLh) {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    content: @content;
+    text-transform: none;
+    font-size: @fzAnchor;
+    line-height: @anchorLh;
+}
+
+.imgTransformScale(@transDuration, @translateZ, @scaleRange) {
+    display: block;
+    overflow: hidden;
+    img {
+        -webkit-transition-duration: @transDuration;
+        transition-duration: @transDuration;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transform: translateZ(@translateZ);
+        -moz-transform: translateZ(@translateZ);
+        transform: translateZ(@translateZ);
+    }
+    &:hover img {
+        -webkit-transform: scale(@scaleRange);
+        transform: scale(@scaleRange);
+        -moz-transform: scale(@scaleRange);
+    }
+}
+
+.transitionDealyWithTime(@transDelayTime) {
+    -webkit-transition-delay: @transDelayTime;
+    -moz-transition-delay: 	  @transDelayTime;
+    -o-transition-delay: 	  @transDelayTime;
+    -ms-transition-delay: 	  @transDelayTime;
+    transition-delay: 		  @transDelayTime;
+}
+
+.transformYMoveByPx(@ymovepx) {
+    -webkit-transform: translateY(@ymovepx);
+    -moz-transform: translateY(@ymovepx);
+    -o-transform: translateY(@ymovepx);
+    -ms-transform: translateY(@ymovepx);
+    transform: translateY(@ymovepx);
+}
+.transitionLastBlogImg (@transTimeBegin, @transTimeEnd) {
+	-webkit-transition: all @transTimeBegin ease-in-out @transTimeEnd;
+    -moz-transition: all @transTimeBegin ease-in-out @transTimeEnd;
+    -o-transition: all @transTimeBegin ease-in-out @transTimeEnd;
+    -ms-transition: all @transTimeBegin ease-in-out @transTimeEnd;
+    transition: all @transTimeBegin ease-in-out @transTimeEnd;
+}
+
+.owlDotsAndSpan(@toTop, @spanWh) {
+    .owl-dots {
+        position: relative;
+        top: @toTop;
+        text-align: right;
+        > .owl-dot {
+            // cover line
+            background-color: white;
+            > span {
+                width: @spanWh;
+                height: @spanWh;
+                background-color: #D6D6D6;
+                &:active,
+                &:hover,
+                &:focus {
+                    background-color: #0088cc;
+                }
+            }   
+        }
+        > .active {
+            // cover line
+            background-color: white;
+            > span {
+                width: @spanWh;
+                height: @spanWh;
+                background-color: #0088cc;
+            }
+        }
+    }
+}
