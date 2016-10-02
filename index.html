@@ -13,6 +13,8 @@
 		<script src="./node_modules/jquery/dist/jquery.min.js"></script>
 		<!-- jQuery-migrate 3.0.0 -->
 		<script src="./node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
+        <!-- jq.waypoint 4.0.1 -->
+        <script src="./node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
 
 		<!-- Bootstrap CSS 3.3.7 -->
 		<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -48,6 +50,33 @@
 		<br />
 
 
+        <!-- <div class="row padding-1em0px topslicer-bgcolor">
+            <div class="col-sm-0 col-md-1 bottle-aligndiv">
+                <img src="@Url.Content("~/Themes/Lavella/Content/img/sale-offer_L_95x264.png")" alt="right_bottle" />
+            </div>
+            <div class="col-sm-12 col-md-10">
+                @Html.Widget("home_page_main_slider_Index_Top")
+            </div>
+            <div class="col-sm-0 col-md-1 bottle-aligndiv">
+                <img src="~/Themes/Lavella/Content/img/sale-offer_R_95x264.png" />
+            </div>
+        </div> -->
+
+
+        <div class="container">
+            <div class="owl-carousel owl-theme imgs-onlytwo">
+                <div>
+                    <img src="./asserts/imgs/index-lastBlog-img.jpg" style="height: 500px;" alt="simpleCarousel" />
+                </div>
+                <div>
+                    <img src="./asserts/imgs/product-gw.jpg" style="height: 500px;" alt="simpleCarousel" />
+                </div>
+            </div>
+        </div>
+
+
+
+
 		<section class="featured-pro container bounceInUp animated">
 		    <div class="slider-items-products">
 		        <div class="new_title center">
@@ -56,7 +85,7 @@
 	            <div id="featured-slider" class="products-grid owl-carousel owl-theme">
 
 
-                    <div class="item thumbnail">
+                    <div class="item" style="border:1px solid red;">
 						<div class="item-inner">
                             <a class="product-image" title="Retis lapen casen" href="#">
                             	<img alt="Retis lapen casen" src="./asserts/imgs/product-np.jpg">
@@ -421,7 +450,7 @@
 
 
 
-		<div class="brand-logo bounceInUp animated">
+		<div class="brand-logo">
 		    <div class="container">
 		        <div class="new_title center">
 		            <h2>TOP BRANDS</h2>
@@ -484,7 +513,7 @@
 
 
 
-		<section class="latest-blog bounceInUp animated">
+		<section class="latest-blog">
 		    <div class="container">
 		        <div class="new_title center">
 		            <h2>Latest Blog</h2>

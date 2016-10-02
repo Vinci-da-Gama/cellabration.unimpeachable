@@ -1,5 +1,8 @@
 $(document).ready(function() {
     // alert(window.location);
+    var topOwl = '.imgs-onlytwo';
+    owlCarouselWith2Images(topOwl);
+
     var topBrandsId = '#brand-logo-slider';
     var newPdId = '#featured-slider';
     owlCarousleBySelectors(topBrandsId);
@@ -11,8 +14,6 @@ function owlCarousleBySelectors(selectorCarouselContainer) {
         loop: true,
         margin: 10,
         dots: true,
-        animateIn: true,
-        animateOut: true,
         responsiveClass: true,
         responsive: {
             0: {
@@ -31,3 +32,17 @@ function owlCarousleBySelectors(selectorCarouselContainer) {
         }
     });
 }
+
+
+function owlCarouselWith2Images(imgContainer) {
+    $(imgContainer).owlCarousel({
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        // autoWidth: true,
+        dots: true,
+        items:1,
+        margin:30,
+        stagePadding:30,
+        smartSpeed:450
+    });
+};
