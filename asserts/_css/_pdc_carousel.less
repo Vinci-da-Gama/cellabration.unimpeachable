@@ -1,0 +1,217 @@
+@blockBorderGray: rgba(210, 210, 210, .8);
+.transItemTime(@theitem, @timeDur) {
+    -webkit-transition: @theitem @timeDur ease-in-out;
+       -moz-transition: @theitem @timeDur ease-in-out;
+        -ms-transition: @theitem @timeDur ease-in-out;
+         -o-transition: @theitem @timeDur ease-in-out;
+            transition: @theitem @timeDur ease-in-out;
+}
+
+.navBtnPrevNext() {
+    color: black;
+    background-color: white;
+    border-radius: 0;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 14em;
+}
+
+@topTriangleSize: 50px;
+
+#featured-slider_4max {
+    .owlDotsAndSpan(-40em, 14px);
+    .owl-nav {
+        // background-color: white;
+        // position: absolute;
+        // top: 33%;
+        .owl-prev {
+            .navBtnPrevNext();
+            left: -2em;
+            &:hover {
+                background-color: #185eab;
+                color: white;
+                border: 1px solid white;
+            }
+        }
+        .owl-next {
+            .navBtnPrevNext();
+            right: -2em;
+            &:hover {
+                background-color: #185eab;
+                color: white;
+                border: 1px solid white;
+            }
+        }
+    }
+}
+
+.clickable-product {
+    overflow: hidden;
+    border: 1px solid @blockBorderGray;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+         -o-border-radius: 3px;
+            border-radius: 3px;
+    .product-topimage {
+        overflow: hidden;
+        img {
+            width: 100%;
+            .transItemTime(all, .4s);
+        }
+        .rednew-topleft-triangle {
+            font-size: 11px;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            background: url('../imgs/newRed.png') top left no-repeat;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            > p {
+                padding-right: 2em;
+                text-transform: uppercase;
+                -webkit-transform: rotate(-45deg);
+                   -moz-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                     -o-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+            }
+        }
+        .bluesale-topright-triangle {
+            font-size: 11px;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            background: url('../imgs/saleBlue.png') no-repeat;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            > p {
+                padding-left: 2em;
+                text-transform: uppercase;
+                -webkit-transform: rotate(45deg);
+                   -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                     -o-transform: rotate(45deg);
+                        transform: rotate(45deg);
+            }
+        }
+        .quickview-link {
+            height: 40px;
+            width: 40px;
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            padding: 20px 5px 0px 25px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            background: url('../imgs/searchBlue.png') no-repeat bottom right;
+            border: none;
+            position: absolute;
+            bottom: 141px;
+            right: 0px;
+            opacity: 0;
+            z-index: 1;
+        }
+    }
+
+    .product-infobottom {
+        padding: 1em 0;
+        -webkit-user-select: text;
+        -moz-user-select:    text;
+        -ms-user-select:     text;
+        -o-user-select:      text;
+        user-select:         text;
+        .product-caption {
+            margin-bottom: 3px;
+            font-size:    14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .product-rating-yellowstars {
+            /*.glyphicon {
+                font-size: 20px;
+            }*/
+            .glyphicon-star-empty {
+                color: @blockBorderGray;
+            }
+            .glyphicon-star {
+                color: yellow;
+            }
+        }
+        .merchandise-price {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 5px 0;
+        }
+        .twolinks-onebtn-bottom {
+            > a {
+                color: darken(@blockBorderGray, 10%);
+            }
+            .button-extra-default {
+                margin: 0 3px;
+                background-color: white;
+                border: 1px solid @blockBorderGray;
+                border-radius: 0;
+                font-weight: bold;
+                .transItemTime(margin, .4s);
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    margin: 0 12px;
+                    .transItemTime(margin, .4s);
+                }
+            }
+        }
+    }
+
+    &:hover {
+        -webkit-box-shadow: 2px 10px 7px 0px rgba(230,227,230,1);
+        -moz-box-shadow:    2px 10px 7px 0px rgba(230,227,230,1);
+        box-shadow:         2px 10px 7px 0px rgba(230,227,230,1);
+        .product-topimage {
+            .quickview-link {
+                opacity: 1;
+            }
+            img {
+                .transItemTime(all, .4s);
+                transform: scale(1.2);
+            }
+        }
+        .product-caption {
+            color: #337ab7;
+        }
+        .twolinks-onebtn-bottom {
+            .likeheart-link {
+                -webkit-transform: translateX(-5px);
+                   -moz-transform: translateX(-5px);
+                    -ms-transform: translateX(-5px);
+                     -o-transform: translateX(-5px);
+                        transform: translateX(-5px);
+            }
+            .btnproduct-defaulthover {
+                background-color: black !important;
+                color: white;
+                margin: 0 12px;
+            }
+            .sendsignal-link {
+                -webkit-transform: translateX(5px);
+                   -moz-transform: translateX(5px);
+                    -ms-transform: translateX(5px);
+                     -o-transform: translateX(5px);
+                        transform: translateX(5px);
+            }
+        }
+
+    }
+}

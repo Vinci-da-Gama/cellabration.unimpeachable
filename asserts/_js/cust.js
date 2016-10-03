@@ -8,14 +8,56 @@ $(document).ready(function() {
     owlCarousleBySelectors(topBrandsId);
     owlCarousleBySelectors(newPdId);
 
+
+
+    var max4Carousel = '#featured-slider_4max';
+    var max6Carousel = '#featured-slider_6max';
+    var four = 4;
+    var six  = 6;
+    carouselMax4OrMax6(max4Carousel, four);
+    carouselMax4OrMax6(max6Carousel, six);
+
+
 });
 
+function carouselMax4OrMax6(selectedCapsul, maxNum) {
+    $(selectedCapsul).owlCarousel({
+        // loop: true,
+        margin: 10,
+        mouseDrag: false,
+        // touchDrag: false,
+        // pullDrag: false,
+        dots: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 2,
+                nav: false
+            },
+            600: {
+                items: 3,
+                nav: false
+            },
+            1100: {
+                items: maxNum,
+                nav: true,
+                navText: [
+                    '<div><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></div>',
+                    '<div><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></div>'
+                ]
+            }
+        }
+    });
+}
 
 
 function owlCarousleBySelectors(selectorCarouselContainer) {
     $(selectorCarouselContainer).owlCarousel({
         loop: true,
         margin: 10,
+        // mouseDrag: false,
+        // touchDrag: false,
+        // pullDrag: false,
         dots: true,
         responsiveClass: true,
         responsive: {
