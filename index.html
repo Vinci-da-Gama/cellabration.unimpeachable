@@ -24,6 +24,15 @@
 		<link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
 		<!-- owl.carousel 2.1.4 css theme -->
 		<link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" />
+        <!-- bootstrap rating 1.3.2 css -->
+        <link rel="stylesheet" href="./node_modules/bootstrap-rating/bootstrap-rating.css" />
+        <!-- bootstrap rating 1.3.2 js -->
+        <script src="./node_modules/bootstrap-rating/bootstrap-rating.min.js" type="text/javascript"></script>
+        <!-- fotorama 4.6.4 css -->
+        <link rel="stylesheet" href="./node_modules/fotorama/fotorama.css" />
+        <!-- fotorama 4.6.4 js -->
+        <script src="./node_modules/fotorama/fotorama.js" type="text/javascript"></script>
+
 
 		<!-- owl.carousel 1.3.3 css -->
 		<!-- <link rel="stylesheet" href="./asserts/_lib/owlcarousel-1.31/owlCarousel-1.3.3.css" /> -->
@@ -43,6 +52,11 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,400,400italic,600,600italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,300,700,900" rel="stylesheet" type="text/css">
+
 	</head>
 	<body>
 		<h1 class="text-center">Hello World</h1>
@@ -63,13 +77,71 @@
         </div> -->
 
 
-        <div class="container">
-            <div class="owl-carousel owl-theme imgs-onlytwo">
-                <div>
-                    <img src="./asserts/imgs/index-lastBlog-img.jpg" style="height: 500px;" alt="simpleCarousel" />
+        <!-- <div class="container">
+            <div class="owl-carousel owl-theme header-imgsslider">
+                <div class="fotorama" data-width="100%" data-height="500">
+                    <div data-img="./asserts/imgs/index-lastBlog-img.jpg" class="caption-sliderdesc">
+                        <p class="fotorama__select">
+                            One
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./asserts/imgs/product-gw.jpg" style="height: 500px;" alt="simpleCarousel" />
+                <div class="fotorama" data-width="100%" data-height="500">
+                    <div data-img="./asserts/imgs/product-gw.jpg" class="caption-sliderdesc">
+                        <p class="fotorama__select">Two</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+                    <!-- Father's Day <br />
+                    SPOIL YOUR FATHER <br />
+                    SHOP NOW <br />
+                    15% off Selected Malt Scotch Whisky -->
+
+
+        <div class="container">
+            <div class="owl-carousel owl-theme header-imgsslider">
+                <div class="carousel-item-container">
+                    <img src="./asserts/imgs/index-lastBlog-img.jpg" alt="simpleCarousel" />
+                    <div class="caption-sliderdescs" id="first-headerImg">
+                        <div>
+                            <span class="redfather-circle">father's day</span>
+                        </div>
+                        <div class="spoil-youfather">
+                            SPOIL YOUR FATHER
+                        </div>
+                        <div class="header-father-desc">
+                            15% off Selected Malt Scotch Whisky
+                        </div>
+                        <div>
+                            <!-- https://www.google.com.au/ -->
+                            <a href="#" class="shopnow-btnheader">
+                                SHOP NOW <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item-container">
+                    <img src="./asserts/imgs/product-gw.jpg" alt="simpleCarousel" />
+                    <div class="caption-sliderdescs" id="second-headerImg">
+                        <div>
+                            <span class="headerslider-nowavailable">Now Available</span>
+                        </div>
+                        <div class="china-no1bear">
+                            CHINA'S # 1 BEER
+                        </div>
+                        <div class="header-yanjing-desc">
+                            The naturally brewed Yanjing Beer now available
+                        </div>
+                        <div>
+                            <!-- https://www.google.com.au/ -->
+                            <a href="#" class="shopnow-btnheader">
+                                BUY NOW <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -746,4 +818,6 @@
 	<link rel="stylesheet" href="./asserts/_css/styles.css" />
 	<!-- cust js -->
 	<script src="./asserts/_js/cust.js" type="text/javascript"></script>
+    <!-- header-text-animate js -->
+    <script src="./asserts/_js/_header_textAnimate.js" type="text/javascript"></script>
 </html>

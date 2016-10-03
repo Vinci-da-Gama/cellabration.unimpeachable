@@ -4,8 +4,123 @@
 
 
 
+// header slider caption
+/*.caption-sliderdesc {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    p {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}*/
+
+/*.caption-sliderdesc {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    > p {
+        padding-top: 20%;
+    }
+}*/
+
+.fzUserSelect(@fz, @fw, @us) {
+    font-size: @fz;
+    font-weight: @fw;
+    -webkit-user-select: @us;
+       -moz-user-select: @us;
+        -ms-user-select: @us;
+         -o-user-select: @us;
+            user-select: @us;
+}
+
+.carousel-item-container {
+    width: 100%;
+    max-height: 500px;
+    img {
+        max-height: 500px;
+    }
+    .caption-sliderdescs {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        text-align: center;
+        > div:first-child {
+            // width: 100%;
+            // height: 100%;
+            padding-top: 6%;
+            .redfather-circle {
+                line-height: 90px;
+                color: #fff;
+                display: inline-flex;
+                white-space: nowrap;
+                width: 90px;
+                height: 90px;
+                padding-left: 20px;
+                background: #ee3644;
+                -moz-border-radius: 46px;
+                -webkit-border-radius: 46px;
+                border-radius: 46px;
+                letter-spacing: 1px;
+                .fzUserSelect(39px, bold, text);
+            }
+            .headerslider-nowavailable {
+                .fzUserSelect(39px, bold, text);
+                color: #ee3644;
+            }
+        }
+        .spoil-youfather {
+            color: #185eab;
+            padding: 0px 20px;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+            .fzUserSelect(5em, bold, text);
+        }
+        .china-no1bear {
+            color: white;
+            padding: 0px 20px;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+            .fzUserSelect(5em, bold, text);
+        }
+        .header-father-desc,.header-yanjing-desc {
+            font-family: 'Roboto', sans-serif;
+            .fzUserSelect(18px, 500, text);
+            margin-bottom: 4em;
+            letter-spacing: 0;
+        }
+        .shopnow-btnheader {
+            padding: 10px 25px;
+            font-family: 'Montserrat', sans-serif;
+            .fzUserSelect(14px, bold, text);
+            letter-spacing: 1px;
+            text-decoration: none;
+            border: 2px #185eab solid;
+            color: #333;
+            // margin-left: 10px;
+            background: rgba(255,255,255,0.5);
+            border-radius: 25px;
+            &:hover,
+            &:focus {
+                background-color: #185eab;
+                color: white;
+            }
+        }
+
+    }
+}
 
 
+
+
+
+
+
+    
 
 
 

@@ -1,13 +1,16 @@
 $(document).ready(function() {
     // alert(window.location);
-    var topOwl = '.imgs-onlytwo';
+    var topOwl = '.header-imgsslider';
     owlCarouselWith2Images(topOwl);
 
     var topBrandsId = '#brand-logo-slider';
     var newPdId = '#featured-slider';
     owlCarousleBySelectors(topBrandsId);
     owlCarousleBySelectors(newPdId);
+
 });
+
+
 
 function owlCarousleBySelectors(selectorCarouselContainer) {
     $(selectorCarouselContainer).owlCarousel({
@@ -38,7 +41,12 @@ function owlCarouselWith2Images(imgContainer) {
     $(imgContainer).owlCarousel({
         animateOut: 'slideOutDown',
         animateIn: 'flipInX',
+        // autoplay: true,
+        // autoplayHoverPause: true,
+        // autoplayTimeout: 1000,
+        loop: true,
         // autoWidth: true,
+        autoHeight: true,
         dots: true,
         items:1,
         margin:30,
